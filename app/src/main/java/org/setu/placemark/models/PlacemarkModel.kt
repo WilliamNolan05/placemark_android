@@ -4,9 +4,10 @@ package org.setu.placemark.models
  * Data class representing a single Placemark item.
  * Kotlin automatically generates toString(), equals(), hashCode(), and copy().
  */
-data class PlacemarkModel(
-    val id: Long = 0L,
-    val title: String = "",
-    val description: String = ""
-    // TODO add more here
+data class PlacedMark(
+    var id:  Long = 0L,
+    var title: String = "",
+    var desc: String = "",
+    var x: Double = 0.0,
+    var y: Double = 0.0
 )
