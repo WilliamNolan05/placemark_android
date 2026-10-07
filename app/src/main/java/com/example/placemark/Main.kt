@@ -1,7 +1,4 @@
-package org.setu.placemark.main
-
-import org.setu.placemark.models.PlacemarkMemStore
-import org.setu.placemark.models.PlacedMark
+package com.example.placemark
 
 val store = PlacemarkMemStore()
 
